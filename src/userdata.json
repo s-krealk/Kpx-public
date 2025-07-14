@@ -1,0 +1,14 @@
+{
+    "Users": {
+        "admin": {
+            "password": "password",
+            "lastlogin": null
+        }
+    },
+    "Admins": {
+        "admin" : {
+            "password": "password",
+            "lastlogin": null
+        }
+    }
+}

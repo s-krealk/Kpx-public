@@ -1,0 +1,228 @@
+@media (max-width: 480px) {
+  .sections {
+    width: 100%;
+    /* One per row on mobile */
+  }
+}
+
+.sections-container {
+  padding: 10px;
+  background-color: #303030;
+  border: #ffffff 1px solid;
+  text-align: center;
+  border-radius: 6px;
+  margin-left: 22.5%;
+  margin-right: 22.5%;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 55%;
+  box-shadow: 0 0 8px #ffffff;
+  z-index: 10;
+  position: relative;
+}
+
+#buttons-container {
+  padding: 10px;
+  background-color: #303030;
+  border: #ffffff 1px solid;
+  text-align: center;
+  border-radius: 6px;
+  margin-left: 22.5%;
+  margin-right: 22.5%;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 55%;
+  box-shadow: 0 0 8px #ffffff;
+  z-index: 10;
+  position: relative;
+}
+
+.settings-button {
+  width: 100px;
+  height: 60px;
+  font-size: larger;
+}
+
+.settingdesc {
+  text-align: left;
+  margin-left: 6px;
+}
+
+.smalldesc {
+  color: #707070;
+  font-size: smaller;
+}
+
+.right-items {
+  display: flex;
+  gap: 10px;
+  /* space between right-aligned items */
+  align-items: center;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Ensures vertical alignment */
+  border-bottom: #333333 1px solid;
+  border-top: #333333 1px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.1s ease-in-out;
+}
+
+.sections:hover {
+  background-color: #323232;
+  transition: 0.1s ease-in-out;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  border: 1px solid #181818;
+  background-color: #202020;
+  padding: 8px;
+  padding-right: 60px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+select:hover {
+  border: 1px solid #7d7d7d;
+  background-color: #252525;
+  transition: border-color 0.2s ease-in-out;
+}
+
+button {
+  background-color: #202020;
+  padding: 8px;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 1px solid #181818;
+  margin: 8px;
+  font-size: 14px;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #252525;
+  border: 1px solid #7d7d7d;
+  transition: 0.2s ease-in-out;
+}
+
+#faviconchooser {
+  border: 1px solid #181818;
+  background-color: #202020;
+  padding: 8px;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 8px;
+  font-size: 14px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 8px;
+  border: 1px solid #181818;
+  font-size: 14px;
+  transition: 0.2s ease-in-out
+}
+
+input:hover {
+  background-color: #222222;
+  transition: 0.2s ease-in-out
+}
+
+input:focus {
+  background-color: #252525;
+  outline: 4px #7d7d7d;
+  border: 1px solid #7d7d7d;
+  transition: 0.2s ease-in-out
+}
+
+.botselect {
+  padding: 8px;
+  padding-right: 60px;
+  border-radius: 10px;
+  background-color: #383838;
+  border-color: #ffffff;
+  color: #ffffff;
+  border: 0px;
+  font-size: 14px;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.botselect:hover {
+  box-shadow: 0 0 2px #ffffff;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#datalinkpopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 90px;
+  border: 50px;
+  border-color: black;
+  background-color: #505050;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  visibility: hidden;
+}
+
+#popuptitle {
+  text-align: center;
+}
+
+#datalinkcontainer {
+  width: 200px !important;
+}
+
+#exitbutton {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  background-color: #707070;
+  margin: 10px;
+  transition: 0.1s ease-in-out;
+  color: white;
+}
+
+#exitbutton:hover {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  background-color: #909090;
+  border-radius: 50px;
+  transition: 0.1s ease-in-out;
+}
+
+#copybutton {
+  background-color: #383838;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 10px;
+  border: 0px;
+  font-size: 18px;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#copybutton:hover {
+  box-shadow: 0 0 2px #ffffff;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
